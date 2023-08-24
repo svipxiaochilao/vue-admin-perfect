@@ -22,8 +22,12 @@
     }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
-  "references": [
-    { "path": "./tsconfig.node.json" }
-  ],
-  "exclude": ["node_modules","dist","**/*.js"]
+  "references": [{ "path": "./tsconfig.node.json" }],
+  "exclude": ["node_modules", "dist", "**/*.js"],
+  "vue/multi-word-component-names": [
+    "error",
+    {
+      "ignores": []
+    }
+  ]
 }
