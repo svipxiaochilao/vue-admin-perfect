@@ -10,7 +10,7 @@
         autoComplete="on"
         style="position: relative"
         v-model="ruleForm.username"
-        @keyup.enter.native="submitForm(ruleFormRef)"
+        @keyup.enter="submitForm(ruleFormRef)"
       >
         <template #prefix>
           <el-icon class="el-input__icon"><UserFilled /></el-icon>
@@ -22,7 +22,7 @@
       <el-input
         placeholder="请输入密码"
         autoComplete="on"
-        @keyup.enter.native="submitForm(ruleFormRef)"
+        @keyup.enter="submitForm(ruleFormRef)"
         v-model="ruleForm.password"
         :type="passwordType"
       >
