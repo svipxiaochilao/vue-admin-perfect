@@ -51,6 +51,7 @@
     </div>
   </full-screen-container>
 </template>
+
 <script lang="ts" setup>
   import { onBeforeUnmount, onMounted, ref } from 'vue'
   import FullScreenContainer from './components/full-screen-container.vue'
