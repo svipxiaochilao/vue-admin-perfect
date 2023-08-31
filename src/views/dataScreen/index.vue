@@ -59,8 +59,8 @@
   import LineCharts from '@/components/DataScreen/lineEcharts/index.vue'
   import BarCharts from '@/components/DataScreen/barEcharts/index.vue'
   import MigrationCharts from '@/components/DataScreen/migrationEcharts/index.vue'
-  import MultilineCharts from '@/components/DataScreen/Multiline/index'
-  import PieCharts from '@/components/DataScreen/Pie/index'
+  import MultilineCharts from '@/components/DataScreen/Multiline/index.vue'
+  import PieCharts from '@/components/DataScreen/pie/index.vue'
 
   const timeDate = ref()
   const hourTime = ref()
